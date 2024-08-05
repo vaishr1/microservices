@@ -1,0 +1,13 @@
+spring.application.name=api-gateway
+server.port=8765
+
+eureka.client.serviceUrl.defaultZone=http://localhost:8761/eureka
+
+spring.cloud.gateway.dicovery.locator.enabled=true
+
+spring.cloud.gateway.discovery.locator.lower-case-service-id=true
+
+spring.cloud.gateway.httpserver.wiretap=true and spring.cloud.gateway.httpclient.wiretap=true
+
+#eureka.instance.hostname=localhost
+eureka.instance.prefer-ip-address=true

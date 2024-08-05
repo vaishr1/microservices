@@ -1,0 +1,5 @@
+package com.vr.microservices.currency_exchange_service;
+
+public class CircuitBreakerController {
+
+}
